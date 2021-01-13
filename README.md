@@ -1,1 +1,2 @@
 # Grocery-List
+This a dictionary containing key-value pair of grocery items and the items price. I looped through the dictionary and using the random module, had the quantity of the item random generated. I print the quantity and price of each individual item price total. As I was in the process of creating this mini program, I had the idea of using the PySimpleGUI midule whihc I have just begin to learn. I aim to create a GUI whihc will allow the user to select quantity of each item and once the user submits their choices it will display their receipt.
