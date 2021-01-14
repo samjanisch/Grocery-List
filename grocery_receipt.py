@@ -7,9 +7,12 @@ store_options = {"Bread": 2.99, "Turkey": 3.99, "Apple": 1.00, "Onion": 0.50,
 total = 0
 
 for key in store_options:
-    num_of_items = random.randrange(0, 5)
+    num_of_items = random.randrange(0, 6)
     price_of_item = (store_options[key] * num_of_items)
+    if num_of_items % 2 == 0:
+        price_of_item = round(price_of_item * 0.50, 2)
     total += price_of_item
+    total = round(total, 2)
     print("Your list contains " + str(num_of_items)+ " " + key +
           " at a price of " + str(price_of_item))
 
